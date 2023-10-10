@@ -53,6 +53,10 @@ main > div {
     box-shadow: 5px 50px 50px 40px hsl(227, 10%, 46%, 0.3);
 }
 
+.card-top {
+    height: 140px;
+}
+
 .profile-photo {
     border-radius: 50%;
     border: 5px solid #fff;
@@ -108,6 +112,7 @@ ul p span {
     font-weight: 400;
     letter-spacing: 2px;
     color: var(--dark-gray);
+    margin-top: 5px;
 }
 
 .bg-pattern {
