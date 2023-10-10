@@ -27,8 +27,6 @@ html {
 
 body {
     height: 100%;
-    /* min-height: 100vh; */
-    /* overflow: hidden; */
     position: relative;
     background-color: hsl(185, 75%, 39%);
 }
@@ -114,18 +112,18 @@ ul p span {
 
 .bg-pattern {
     position: absolute;
-    /* width: 70vw; */
-    /* height: 70vw; */
+    width: 650px;
+    height: 650px;
 }
 
 .bg-pattern-top {
-    right: calc(40% - (5vw * 0.1));
-    bottom: 40%;
+    right: 43vw;
+    bottom: 59vh;
 }
 
 .bg-pattern-bottom {
-    left: calc(40% - (5vw * 0.1));
-    top: 50%;
+    left: 43vw;
+    top: 53vh;
 }
 
 footer {
@@ -135,4 +133,26 @@ footer {
     bottom: 24px;
     width: 100%;
     padding-inline: 24px;
+}
+
+a {
+    color: #fff;
+}
+
+@media (min-width: 700px) {
+    .bg-pattern {
+        position: absolute;
+        width: 978px;
+        height: 978px;
+    }
+    
+    .bg-pattern-top {
+        right: 52vw;
+        bottom: 35vh;
+    }
+    
+    .bg-pattern-bottom {
+        left: 48vw;
+        top: 52vh;
+    }
 }
